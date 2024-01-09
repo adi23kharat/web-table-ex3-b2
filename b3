@@ -1,0 +1,59 @@
+
+<html>
+<head>
+   
+</head>
+<body>
+   <table border="5" align="center" cellspacing="3 align=center">
+    <tr>
+        <th align="center" width="20%">Country</th>
+        <th colspan="2" width="80%">Population (in Crores)</th>
+    </tr>
+    <tr>
+        <td align=center rowspan="4">INDIA</td>
+    </tr>
+    <tr>
+        <td align=center width="">1998</td>
+        <td align=center>85</td>
+    </tr>
+    <tr>
+        <td align=center>1999</td>
+        <td align=center>10</td>
+    </tr>
+    <tr>
+        <td align=center>2000</td>
+        <td align=center>100</td>
+    </tr>
+    <tr>
+        <td align=center rowspan="4">USA</td>
+    </tr>
+    <tr>
+        <td align=center>1998</td>
+        <td align=center>30</td>
+    </tr>
+    <tr>
+        <td align=center>1999</td>
+        <td align=center>35</td>
+    </tr>
+    <tr>
+        <td align=center>2000</td>
+        <td align=center>40</td>
+    </tr>
+    <tr>
+        <td align=center rowspan="4">UK</td>
+    </tr>
+    <tr>
+        <td align=center>1998</td>
+        <td align=center>25</td>
+    </tr>
+    <tr>
+        <td align=center>1999</td>
+        <td align=center>30</td>
+    </tr>
+    <tr>
+        <td align=center>2000</td>
+        <td align=center>35</td>
+    </tr>
+   </table> 
+</body>
+</html>
