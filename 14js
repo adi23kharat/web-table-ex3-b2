@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #btn {
+        background-color: green;
+    }
+</style>
+
+<!-- Design a student registration form with fields Name, Address, city and Pin-Code. Write a java script program to perform following validation
+i. Check name should not be empty and contain alphabets only
+ii. Pin-code must be 6 digits only   -->
+<body>
+   <table align="center" border="2px" cellpadding="4px" width="200px" height="100px">
+    <tr>
+    <td> <label for="name">Name</label> </td> 
+    <td> <input type="text" id="name">  </td>
+    </tr>
+    <tr>
+    <td> <label for="Address">Address</label> </td> 
+    <td> <input type="text">  </td>
+    </tr>
+    <tr>
+    <td> <label for="city">City</label> </td> 
+    <td> <input type="text">  </td>
+    </tr>
+    <tr>
+    <td> <label for="pincode">Pincode</label> </td> 
+    <td> <input type="text" id="pin">  </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td align="center"><input type="button" value="SUBMIT" id="btn" onclick="submit()"></td>
+    </tr>
+    </table>
+</body>
+<script>
+    function submit() {
+    let n = document.getElementById("name").value;
+    let p = document.getElementById("pin").value;
+    if(n=="" || p == "")    
+    {
+        alert("please enter the details");
+    } 
+    else if(!n.match(/^[a-zA-z]+$/)) //^ + $ used to start to end
+    {
+        alert("name should  be only alphabets");
+        return false;
+    }
+    else if(!p.match(/^\d{6}$/))
+    {
+        alert("pin code should have only six digits")
+    }
+}
+</script>
+</html>
