@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration</legend><br>
+        <label for="name">Name</label><br><br>
+        <input type="text" id="name"><br>
+        <label for="password" >password</label><br><br>
+        <input type="text" id="pass">
+
+        <button onclick="submit()"> SUBMIT</button>
+    </fieldset>
+    <script>
+        function submit() {
+            let n = document.getElementById("name").value;
+            let p = document.getElementById("pass").value;
+            if(n=='aditya' && p==1234)
+            {
+                alert("successfully login")
+                window.open("index.html")
+            }
+            else{
+                alert("something went wrong")
+                
+            }
+        }
+    </script>
+</body>
+</html>
