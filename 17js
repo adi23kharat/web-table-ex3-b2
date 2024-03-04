@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+    <h1 id="sentence"></h1>
+    <script>
+        let n = prompt("Enter your sentence :-");
+        let len = n.length;
+        
+        
+
+        for(i=0; i<len ;i++)
+        {
+            n=n.replace(/\s/,"*");
+            n=n.replace(/[0-9]/g,"?")
+        }
+        document.write(n)
+    </script>
+</body>
+</html>
