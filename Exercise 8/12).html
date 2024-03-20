@@ -1,0 +1,40 @@
+<html>
+<head>
+</head>
+<style>
+    #btn{
+        background-color:greenyellow;
+        
+    }
+    table{
+        background-color: grey;
+        margin: 100px auto;
+    }
+</style>
+<body>
+    <table border="2px" align="center" margin="50px" width="300px" height="150px">
+        <tr>
+            <td>Radius</td>
+            <td><input type="text" id="r"></td>
+        </tr>
+        <tr>
+            <td>Volume</td>
+            <td><input type="text" id="v"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center"><input type="button" value="SUBMIT" id="btn" onclick="voc()"></td>
+        </tr>
+    </table>
+    <script>
+        function voc() {
+            let radius = document.getElementById("r").value;
+            let volume = (4/3) * Math.PI * Math.pow(radius,3);
+             volume = volume.toFixed()
+             
+            document.getElementById("v").value = volume;
+        }
+    </script>
+    
+</body>
+</html>

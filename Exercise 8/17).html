@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+</body>
+<script>
+
+	let n=prompt("Enter your sentence:-");
+	let len=n.length;
+	for(let i=0 ; i<len ; i++)
+	{
+		n = n.replace(/\s/g,"*");
+		n = n.replace(/\d/g,"?");
+	}
+	document.write(n);
+</script>
+</html>
+
+

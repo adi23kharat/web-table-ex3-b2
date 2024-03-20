@@ -1,0 +1,52 @@
+h1 {
+	text-align:center;
+	margin-top : 30px;
+	font-weight: bold;
+}
+body {
+	background-image: url('vp2img.webp');
+	background-size: cover;
+	
+}
+h4 {
+	text-align:center;
+}
+
+h3 {
+	color: #476b6b
+}
+
+div{
+	width:400px;
+	border: none;
+	height:320px;
+	background-color:#8080ff;
+	border-radius:10px;
+	justify-content: center;
+	display:flex;
+	align-items:center;
+	margin:auto;
+	background-filter:transparent;
+}
+.fname {
+	color:red;
+	font-family:Copperplate Gothic;
+	font-weight: bold;
+}
+.ads {
+	color:yellow;
+	font-family:Copperplate Gothic;
+}
+.mark { margin-top:20px
+	height:200px;
+	width:1500px;
+	background-color:grey;
+	padding:20px;
+	margin:4px;
+	color:black;
+	
+}
+img {
+	height:270px;
+	padding-right:40px
+}

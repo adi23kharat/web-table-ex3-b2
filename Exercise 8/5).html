@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title> Prime</title>
+</head>
+<body>
+<button onclick="Prime()">Checking Prime Number</button>
+</body>
+<script>
+function Prime() {
+
+	let count=0,i,d,num=parseInt(prompt("Enter Number "));
+	for(i=1;i<num;i++)
+	{
+		d=num%i;
+		if(d==0)
+		{
+			count = count + 1;
+		}
+		
+	}
+	
+		if (count==2)
+		{
+		document.write(" this Number is Prime ",num);
+		}
+		
+		else
+		{
+		document.write(" this Number is not Prime ",num);
+		}
+}	
+		
+
+</script>
+</html>

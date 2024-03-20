@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title> Armstrong</title>
+</head>
+<body>
+<button onclick="Armstrong()">NUmber Cheking</button>
+</body>
+<script>
+function Armstrong() {
+
+	let arm=0,t,d,num=parseInt(prompt("Enter Number "))
+	t=num;
+	while(num!=0)
+	{
+		d=num%10;
+		arm=arm+d*d*d;
+		num=Math.floor(num/10);
+	}
+	if(t==arm)
+	{
+	document.write("Given Number is **Armstrong** ",t);
+	}
+	else
+	{
+	document.write("Given Number is **Not Armstrong** ",t);	
+	}
+		
+}
+</script>
+</html>

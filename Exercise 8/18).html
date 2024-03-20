@@ -1,0 +1,31 @@
+<html>
+</head>
+
+</head>
+<body>
+    <fieldset>
+        <legend>Registration</legend><br>
+        <label for="name">Name</label><br>
+        <input type="text" id="name"><br><br>
+        <label for="password" >password</label><br>
+        <input type="password" id="pass"><br><br>
+
+        <button onclick="submit()"> SUBMIT</button>
+    </fieldset>
+    <script>
+        function submit() {
+            let n = document.getElementById("name").value;
+            let p = document.getElementById("pass").value;
+            if(n=='aditya' && p==1234)
+            {
+                alert("successfully login")
+                window.open("table.html")
+            }
+            else{
+                alert("something went wrong")
+                
+            }
+        }
+    </script>
+</body>
+</html>

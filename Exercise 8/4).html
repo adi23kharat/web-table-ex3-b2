@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title> Perfect</title>
+</head>
+<body>
+<button onclick="Perfect()">Checking Perfect Number</button>
+</body>
+<script>
+function Perfect() {
+
+	let sum=0,i,d,num=parseInt(prompt("Enter Number "));
+	for(i=1;i<num;i++)
+	{
+		d=num%i;
+		if(d==0)
+		{
+			sum = sum + i;
+		}
+	
+		
+	}
+	
+		if (num==sum)
+		{
+		document.write(" this Number is Perfect ",num);
+		}
+}	
+		
+
+</script>
+</html>

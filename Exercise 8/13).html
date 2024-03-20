@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<button onclick="fact()">Calculate</button><br>
+<p id="para">
+<script>
+function fact() {
+	let num=parseInt(prompt("Enter num= "));
+	const facto=[];
+	for(let i=1;i<num;i++)
+	{
+		if(num%i==0)
+		{
+		facto.push(i);	
+		}
+	}
+	document.write(facto);
+	 
+}
+</script>
+</body>
+</html>
